@@ -23,6 +23,6 @@ public class WebController {
     @GetMapping("/")
     @ResponseBody
     public String main() {
-        return "<a href=\"hhttp://covenant.tistory.com/\">covenant.tistory.com/</a>";
+        return "<a href=\"https://covenant.tistory.com/\">covenant.tistory.com/</a>";
     }
 }
